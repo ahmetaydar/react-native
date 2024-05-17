@@ -22,6 +22,9 @@ export function HomeBottomBar() {
             initialRouteName='Home'
             screenOptions={({ route }) => ({
                 headerShown: false,
+
+                tabBarShowLabel: false,
+
                 tabBarStyle: styles.tabBar,
                 tabBarIcon: ({ focused, color, size }: Props) => {
                     let iconName;
